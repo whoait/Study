@@ -1,0 +1,6 @@
+package org.o7planning.spring.bean;
+import org.o7planning.spring.lang.Language;
+
+public class GreetingService {
+
+}

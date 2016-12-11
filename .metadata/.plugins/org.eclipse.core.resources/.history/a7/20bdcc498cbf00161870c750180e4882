@@ -1,0 +1,11 @@
+package org.o7planning.spring;
+
+import org.o7planning.spring.bean.GreetingService;
+import org.o7planning.spring.bean.MyComponent;
+import org.o7planning.spring.config.AppConfiguration;
+import org.o7planning.spring.lang.Language;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+public class MainProgram {
+
+}

@@ -1,0 +1,8 @@
+package org.o7planning.tutorial.hellomaven;
+
+public class CheckNumberic {
+	public static void main(String args[]){
+		
+	}
+
+}
