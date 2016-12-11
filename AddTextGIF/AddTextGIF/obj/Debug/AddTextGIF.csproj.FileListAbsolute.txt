@@ -1,0 +1,18 @@
+D:\local E\prj_dotnet\AddTextGIF\AddTextGIF\bin\Debug\AddTextGIF.exe.config
+D:\local E\prj_dotnet\AddTextGIF\AddTextGIF\bin\Debug\AddTextGIF.exe
+D:\local E\prj_dotnet\AddTextGIF\AddTextGIF\bin\Debug\AddTextGIF.pdb
+D:\local E\prj_dotnet\AddTextGIF\AddTextGIF\obj\Debug\AddTextGIF.Form1.resources
+D:\local E\prj_dotnet\AddTextGIF\AddTextGIF\obj\Debug\AddTextGIF.Properties.Resources.resources
+D:\local E\prj_dotnet\AddTextGIF\AddTextGIF\obj\Debug\AddTextGIF.csproj.GenerateResource.Cache
+D:\local E\prj_dotnet\AddTextGIF\AddTextGIF\obj\Debug\AddTextGIF.exe
+D:\local E\prj_dotnet\AddTextGIF\AddTextGIF\obj\Debug\AddTextGIF.pdb
+D:\local E\prj_dotnet\AddTextGIF\AddTextGIF\obj\Debug\AddTextGIF.csprojResolveAssemblyReference.cache
+F:\GIT\AddTextGIF\AddTextGIF\bin\Debug\AddTextGIF.exe.config
+F:\GIT\AddTextGIF\AddTextGIF\obj\Debug\AddTextGIF.exe
+F:\GIT\AddTextGIF\AddTextGIF\obj\Debug\AddTextGIF.pdb
+F:\GIT\AddTextGIF\AddTextGIF\bin\Debug\AddTextGIF.exe
+F:\GIT\AddTextGIF\AddTextGIF\bin\Debug\AddTextGIF.pdb
+F:\GIT\AddTextGIF\AddTextGIF\obj\Debug\AddTextGIF.csprojResolveAssemblyReference.cache
+F:\GIT\AddTextGIF\AddTextGIF\obj\Debug\AddTextGIF.Form1.resources
+F:\GIT\AddTextGIF\AddTextGIF\obj\Debug\AddTextGIF.Properties.Resources.resources
+F:\GIT\AddTextGIF\AddTextGIF\obj\Debug\AddTextGIF.csproj.GenerateResource.Cache
