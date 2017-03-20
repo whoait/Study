@@ -1,0 +1,21 @@
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\bin\Debug\Gulliver.DoCol.DataAccess.Framework.dll
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\bin\Debug\Gulliver.DoCol.DataAccess.Framework.pdb
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\bin\Debug\Gulliver.DoCol.Constants.dll
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\bin\Debug\Gulliver.DoCol.Constants.pdb
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\obj\Debug\Gulliver.DoCol.DataAccess.Framework.csprojResolveAssemblyReference.cache
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\obj\Debug\Gulliver.DoCol.DataAccess.Framework.dll
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\obj\Debug\Gulliver.DoCol.DataAccess.Framework.pdb
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\bin\Debug\Gulliver.DoCol.DataAccess.Framework.dll
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\bin\Debug\Gulliver.DoCol.DataAccess.Framework.pdb
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\bin\Debug\Gulliver.DoCol.Constants.dll
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\bin\Debug\Gulliver.DoCol.Constants.pdb
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\obj\Debug\Gulliver.DoCol.DataAccess.Framework.csprojResolveAssemblyReference.cache
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\obj\Debug\Gulliver.DoCol.DataAccess.Framework.dll
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\obj\Debug\Gulliver.DoCol.DataAccess.Framework.pdb
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\bin\Debug\Gulliver.DoCol.DataAccess.Framework.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\bin\Debug\Gulliver.DoCol.DataAccess.Framework.pdb
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\bin\Debug\Gulliver.DoCol.Constants.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\bin\Debug\Gulliver.DoCol.Constants.pdb
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\obj\Debug\Gulliver.DoCol.DataAccess.Framework.csprojResolveAssemblyReference.cache
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\obj\Debug\Gulliver.DoCol.DataAccess.Framework.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\obj\Debug\Gulliver.DoCol.DataAccess.Framework.pdb

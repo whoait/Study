@@ -1,0 +1,70 @@
+USE [dbDOC_ph2]
+GO
+
+/****** Object:  Table [dbo].[TM_AA_KAIJO]    Script Date: 2016/01/28 18:17:29 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[TM_AA_KAIJO](
+	[AA_KAIJO_CD] [char](6) NOT NULL,
+	[SHUPPIN_RAKUSATSU_TYPE] [char](1) NULL,
+	[AA_KAIJO_NAME] [varchar](40) NULL,
+	[AA_KAIJO_KANA] [varchar](20) NULL,
+	[AA_KAIJO_NAME_RYAKUSHO] [varchar](12) NULL,
+	[KAIIN_NO] [varchar](10) NULL,
+	[AA_KAISAI_YOBI_TYPE] [smallint] NULL,
+	[TV_AA_TYPE] [char](1) NULL,
+	[TSUJO_KAISAI_KAISU] [int] NULL,
+	[AA_KYUSAI_FLG] [char](1) NULL,
+	[TOKUREI_KAIJO_FLG] [char](1) NULL,
+	[APS_HYOJI_KBN] [char](1) NULL,
+	[CHIKU_CD] [varchar](2) NULL,
+	[PREFECTURE_CD] [char](2) NULL,
+	[CITY_CD] [char](5) NULL,
+	[ZIP_CD] [varchar](7) NULL,
+	[CITY_NAME] [varchar](50) NULL,
+	[ADDRESS1] [varchar](50) NULL,
+	[ADDRESS2] [varchar](50) NULL,
+	[SHOZAICHI] [varchar](50) NULL,
+	[TEL_NO] [varchar](15) NULL,
+	[FAX_NO] [varchar](15) NULL,
+	[KEISAN_NISSU] [int] NULL,
+	[SHUPPIN_FEE] [decimal](11, 0) NULL,
+	[SEIYAKU_FEE] [decimal](11, 0) NULL,
+	[HANSHUTSU_KIKAN] [smallint] NULL,
+	[HANSHUTSU_DATE] [datetime] NULL,
+	[SHORUI_KIGEN_NISSU] [int] NULL,
+	[PENALTY_PRICE] [decimal](11, 0) NULL,
+	[PENALTY_KANKAKU] [int] NULL,
+	[TSUIKA_PRICE] [int] NULL,
+	[KEISANSHO_GYOSU_1] [smallint] NULL,
+	[KEISANSHO_GYOSU_2] [smallint] NULL,
+	[CDTR_CHOSEI_CHOKUEI] [real] NULL,
+	[CDTR_CHOSEI_KAMEI] [real] NULL,
+	[DASHBOARD_YOBI_HYOJIJUN] [smallint] NULL,
+	[DASHBOARD_HYOJI_FLG] [int] NOT NULL,
+	[CREATE_DATE] [datetime] NOT NULL,
+	[CREATE_PG_CD] [varchar](50) NULL,
+	[CREATE_USER_CD] [varchar](6) NULL,
+	[UPDATE_DATE] [datetime] NULL,
+	[UPDATE_PG_CD] [varchar](50) NULL,
+	[UPDATE_USER_CD] [varchar](6) NULL,
+	[DELETE_DATE] [datetime] NULL,
+	[DELETE_FLG] [char](1) NULL,
+ CONSTRAINT [PK_TM_AA_KAIJO] PRIMARY KEY CLUSTERED 
+(
+	[AA_KAIJO_CD] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [dbDOC_DATA]
+) ON [dbDOC_DATA]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+

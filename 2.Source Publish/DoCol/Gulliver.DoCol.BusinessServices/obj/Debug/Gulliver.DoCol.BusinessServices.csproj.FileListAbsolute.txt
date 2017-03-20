@@ -1,0 +1,96 @@
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.BusinessServices.dll
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.BusinessServices.pdb
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.Constants.dll
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.DataAccess.dll
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.DataAccess.Framework.dll
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.Entities.dll
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.ReportServices.dll
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.UtilityServices.dll
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\log4net.dll
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\System.Web.Mvc.dll
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.DataValidation.dll
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Ionic.Zip.dll
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\AWSSDK.dll
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\AntiXssLibrary.dll
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.MessageUtility.dll
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.Constants.pdb
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.DataAccess.Framework.pdb
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.DataAccess.pdb
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.Entities.pdb
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.ReportServices.pdb
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.UtilityServices.pdb
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\log4net.xml
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\System.Web.Mvc.xml
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.DataValidation.pdb
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\AWSSDK.pdb
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.MessageUtility.pdb
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\obj\Debug\Gulliver.DoCol.BusinessServices.csprojResolveAssemblyReference.cache
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\obj\Debug\Gulliver.DoCol.BusinessServices.dll
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\obj\Debug\Gulliver.DoCol.BusinessServices.pdb
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.BusinessServices.dll
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.BusinessServices.pdb
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.Constants.dll
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.DataAccess.dll
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.DataAccess.Framework.dll
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.Entities.dll
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.ReportServices.dll
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.UtilityServices.dll
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\log4net.dll
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\System.Web.Mvc.dll
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.DataValidation.dll
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Ionic.Zip.dll
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\AWSSDK.dll
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\AntiXssLibrary.dll
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.MessageUtility.dll
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.Constants.pdb
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.DataAccess.Framework.pdb
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.DataAccess.pdb
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.Entities.pdb
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.ReportServices.pdb
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.UtilityServices.pdb
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\log4net.xml
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\System.Web.Mvc.xml
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.DataValidation.pdb
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\AWSSDK.pdb
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.MessageUtility.pdb
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\obj\Debug\Gulliver.DoCol.BusinessServices.csprojResolveAssemblyReference.cache
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\obj\Debug\Gulliver.DoCol.BusinessServices.dll
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\obj\Debug\Gulliver.DoCol.BusinessServices.pdb
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.BusinessServices.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.BusinessServices.pdb
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.Constants.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.DataAccess.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.DataAccess.Framework.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.Entities.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.ReportServices.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.UtilityServices.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\System.Web.Mvc.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.DataValidation.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Ionic.Zip.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\AWSSDK.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\AntiXssLibrary.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.MessageUtility.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\System.Web.Razor.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\System.Web.WebPages.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.Constants.pdb
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.DataAccess.Framework.pdb
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.DataAccess.pdb
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.Entities.pdb
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.ReportServices.pdb
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.UtilityServices.pdb
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\log4net.xml
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\System.Web.Mvc.xml
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.DataValidation.pdb
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\AWSSDK.pdb
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.MessageUtility.pdb
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\System.Web.Razor.xml
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\System.Web.WebPages.xml
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\Microsoft.Web.Infrastructure.xml
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\obj\Debug\Gulliver.DoCol.BusinessServices.csprojResolveAssemblyReference.cache
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\obj\Debug\Gulliver.DoCol.BusinessServices.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\obj\Debug\Gulliver.DoCol.BusinessServices.pdb

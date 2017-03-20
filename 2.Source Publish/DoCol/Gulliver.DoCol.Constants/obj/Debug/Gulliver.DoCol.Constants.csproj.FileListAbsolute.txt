@@ -1,0 +1,38 @@
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.Constants\bin\Debug\Gulliver.DoCol.Constants.dll
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.Constants\bin\Debug\Gulliver.DoCol.Constants.pdb
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.Resources.DC1010.resources
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.Resources.DCW002.resources
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.Resources.LibFullHalf.resources
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.Resources.RsMessage.resources
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.Resources.ScreenList.resources
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.Resources.SystemSetting.resources
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.Resources.TimeZone.resources
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.csproj.GenerateResource.Cache
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.dll
+D:\glv_docol\03.Source Code\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.pdb
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.Constants\bin\Debug\Gulliver.DoCol.Constants.dll
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.Constants\bin\Debug\Gulliver.DoCol.Constants.pdb
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.csprojResolveAssemblyReference.cache
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.Resources.DC1010.resources
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.Resources.DCW002.resources
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.Resources.LibFullHalf.resources
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.Resources.RsMessage.resources
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.Resources.ScreenList.resources
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.Resources.SystemSetting.resources
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.Resources.TimeZone.resources
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.csproj.GenerateResource.Cache
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.dll
+D:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.pdb
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.Constants\bin\Debug\Gulliver.DoCol.Constants.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.Constants\bin\Debug\Gulliver.DoCol.Constants.pdb
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.csprojResolveAssemblyReference.cache
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.Resources.DC1010.resources
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.Resources.DCW002.resources
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.Resources.LibFullHalf.resources
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.Resources.RsMessage.resources
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.Resources.ScreenList.resources
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.Resources.SystemSetting.resources
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.Resources.TimeZone.resources
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.csproj.GenerateResource.Cache
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.dll
+D:\Study\2.Source Publish\DoCol\Gulliver.DoCol.Constants\obj\Debug\Gulliver.DoCol.Constants.pdb

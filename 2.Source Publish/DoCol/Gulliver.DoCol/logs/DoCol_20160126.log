@@ -1,0 +1,238 @@
+INFO  - [01/26/2016 10:16:AM][Application_Start][][][][START]
+
+INFO  - [01/26/2016 10:16:AM][RegisterGlobalFilters][][][][START]
+
+INFO  - [01/26/2016 10:16:AM][RegisterGlobalFilters][][][][END]
+
+INFO  - [01/26/2016 10:16:AM][Application_Start][][][][END]
+
+INFO  - [01/26/2016 06:27:PM][Application_Start][][][][START]
+
+INFO  - [01/26/2016 06:27:PM][RegisterGlobalFilters][][][][START]
+
+INFO  - [01/26/2016 06:27:PM][RegisterGlobalFilters][][][][END]
+
+INFO  - [01/26/2016 06:27:PM][Application_Start][][][][END]
+
+INFO  - [01/26/2016 06:27:PM][Application_Error][][][][START]
+
+INFO  - [01/26/2016 06:27:PM][Application_Error][][][][END]
+
+INFO  - [01/26/2016 06:27:PM][Application_Error][][][][START]
+
+INFO  - [01/26/2016 06:27:PM][Application_Error][][][][END]
+
+INFO  - [01/26/2016 06:27:PM][Application_Error][][][][START]
+
+INFO  - [01/26/2016 06:27:PM][Application_Error][][][][END]
+
+ERROR - [01/26/2016 06:28:PM][Gulliver.DoCol.Areas.DCW.Controllers.DCW003Controller.DCW003Index][][][::1][String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.]
+   at Gulliver.DoCol.DataAccess.Framework.DBManager.ExecuteNonQuery() in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\DBManager.cs:line 509
+   at Gulliver.DoCol.DataAccess.DCW.DCW003Da.DCW003InsertHensoIf(List`1 lstCsvTempHenso) in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess\DCW\DCW003Da.cs:line 454
+   at Gulliver.DoCol.BusinessServices.DCW.DCW003Services.DCW003GetHenSoIfExist(List`1 lstCsv, List`1 lstFuzokuhinMaster, Int32 pageIndex, Int32 pageSize, List`1& lstResult, List`1& lstUketori, String& lstImport, Int32& rowCount) in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\DCW\DCW003Services.cs:line 237
+   at Gulliver.DoCol.Areas.DCW.Controllers.DCW003Controller.DCW003Index(Int32 mode, Int32 check) in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol\Areas\DCW\Controllers\DCW003Controller.cs:line 333
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+INFO  - [01/26/2016 06:28:PM][Application_Error][][][][START]
+
+INFO  - [01/26/2016 06:28:PM][Application_Error][][][][END]
+
+ERROR - [01/26/2016 06:29:PM][Gulliver.DoCol.Areas.DCW.Controllers.DCW003Controller.DCW003Index][][][::1][String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.]
+   at Gulliver.DoCol.DataAccess.Framework.DBManager.ExecuteNonQuery() in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\DBManager.cs:line 509
+   at Gulliver.DoCol.DataAccess.DCW.DCW003Da.DCW003InsertHensoIf(List`1 lstCsvTempHenso) in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess\DCW\DCW003Da.cs:line 454
+   at Gulliver.DoCol.BusinessServices.DCW.DCW003Services.DCW003GetHenSoIfExist(List`1 lstCsv, List`1 lstFuzokuhinMaster, Int32 pageIndex, Int32 pageSize, List`1& lstResult, List`1& lstUketori, String& lstImport, Int32& rowCount) in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\DCW\DCW003Services.cs:line 237
+   at Gulliver.DoCol.Areas.DCW.Controllers.DCW003Controller.DCW003Index(Int32 mode, Int32 check) in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol\Areas\DCW\Controllers\DCW003Controller.cs:line 333
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+INFO  - [01/26/2016 06:29:PM][Application_Error][][][][START]
+
+INFO  - [01/26/2016 06:29:PM][Application_Error][][][][END]
+
+ERROR - [01/26/2016 06:30:PM][Gulliver.DoCol.Areas.DCW.Controllers.DCW003Controller.DCW003Index][][][::1][String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.]
+   at Gulliver.DoCol.DataAccess.Framework.DBManager.ExecuteNonQuery() in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\DBManager.cs:line 509
+   at Gulliver.DoCol.DataAccess.DCW.DCW003Da.DCW003InsertHensoIf(List`1 lstCsvTempHenso) in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess\DCW\DCW003Da.cs:line 454
+   at Gulliver.DoCol.BusinessServices.DCW.DCW003Services.DCW003GetHenSoIfExist(List`1 lstCsv, List`1 lstFuzokuhinMaster, Int32 pageIndex, Int32 pageSize, List`1& lstResult, List`1& lstUketori, String& lstImport, Int32& rowCount) in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\DCW\DCW003Services.cs:line 237
+   at Gulliver.DoCol.Areas.DCW.Controllers.DCW003Controller.DCW003Index(Int32 mode, Int32 check) in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol\Areas\DCW\Controllers\DCW003Controller.cs:line 333
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+INFO  - [01/26/2016 06:30:PM][Application_Error][][][][START]
+
+INFO  - [01/26/2016 06:30:PM][Application_Error][][][][END]
+
+ERROR - [01/26/2016 06:30:PM][Gulliver.DoCol.Areas.DCW.Controllers.DCW003Controller.DCW003Index][][][::1][String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.]
+   at Gulliver.DoCol.DataAccess.Framework.DBManager.ExecuteNonQuery() in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\DBManager.cs:line 509
+   at Gulliver.DoCol.DataAccess.DCW.DCW003Da.DCW003InsertHensoIf(List`1 lstCsvTempHenso) in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess\DCW\DCW003Da.cs:line 454
+   at Gulliver.DoCol.BusinessServices.DCW.DCW003Services.DCW003GetHenSoIfExist(List`1 lstCsv, List`1 lstFuzokuhinMaster, Int32 pageIndex, Int32 pageSize, List`1& lstResult, List`1& lstUketori, String& lstImport, Int32& rowCount) in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\DCW\DCW003Services.cs:line 237
+   at Gulliver.DoCol.Areas.DCW.Controllers.DCW003Controller.DCW003Index(Int32 mode, Int32 check) in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol\Areas\DCW\Controllers\DCW003Controller.cs:line 333
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+INFO  - [01/26/2016 06:30:PM][Application_Error][][][][START]
+
+INFO  - [01/26/2016 06:30:PM][Application_Error][][][][END]
+
+ERROR - [01/26/2016 06:32:PM][Gulliver.DoCol.Areas.DCW.Controllers.DCW003Controller.DCW003Index][][][::1][String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.]
+   at Gulliver.DoCol.DataAccess.Framework.DBManager.ExecuteNonQuery() in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\DBManager.cs:line 509
+   at Gulliver.DoCol.DataAccess.DCW.DCW003Da.DCW003InsertHensoIf(List`1 lstCsvTempHenso) in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess\DCW\DCW003Da.cs:line 454
+   at Gulliver.DoCol.BusinessServices.DCW.DCW003Services.DCW003GetHenSoIfExist(List`1 lstCsv, List`1 lstFuzokuhinMaster, Int32 pageIndex, Int32 pageSize, List`1& lstResult, List`1& lstUketori, String& lstImport, Int32& rowCount) in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\DCW\DCW003Services.cs:line 237
+   at Gulliver.DoCol.Areas.DCW.Controllers.DCW003Controller.DCW003Index(Int32 mode, Int32 check) in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol\Areas\DCW\Controllers\DCW003Controller.cs:line 333
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+INFO  - [01/26/2016 06:32:PM][Application_Error][][][][START]
+
+INFO  - [01/26/2016 06:32:PM][Application_Error][][][][END]
+
+ERROR - [01/26/2016 06:37:PM][Gulliver.DoCol.Areas.DCW.Controllers.DCW003Controller.DCW003Index][][][::1][String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.]
+   at Gulliver.DoCol.DataAccess.Framework.DBManager.ExecuteNonQuery() in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess.Framework\DBManager.cs:line 509
+   at Gulliver.DoCol.DataAccess.DCW.DCW003Da.DCW003InsertHensoIf(List`1 lstCsvTempHenso) in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.DataAccess\DCW\DCW003Da.cs:line 454
+   at Gulliver.DoCol.BusinessServices.DCW.DCW003Services.DCW003GetHenSoIfExist(List`1 lstCsv, List`1 lstFuzokuhinMaster, Int32 pageIndex, Int32 pageSize, List`1& lstResult, List`1& lstUketori, String& lstImport, Int32& rowCount) in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol.BusinessServices\DCW\DCW003Services.cs:line 237
+   at Gulliver.DoCol.Areas.DCW.Controllers.DCW003Controller.DCW003Index(Int32 mode, Int32 check) in d:\glv_docol\03.Source Code\Phase2_DOC\2.Source Publish\DoCol\Gulliver.DoCol\Areas\DCW\Controllers\DCW003Controller.cs:line 333
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+INFO  - [01/26/2016 06:37:PM][Application_Error][][][][START]
+
+INFO  - [01/26/2016 06:37:PM][Application_Error][][][][END]
+
