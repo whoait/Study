@@ -1,0 +1,68 @@
+﻿@* ----------------------------
+        System			: Seibi order
+        View			: DC1010
+        Overview		: Check user login information.
+        Designer		: PhuongPD@FPT
+        Programmer		: NamNTP1@FPT
+        Created Date	: 2015/04/08
+    -----------------------------*@
+@using Gulliver.DoCol.Constants.Resources
+@model Gulliver.DoCol.Entities.Welcome.DC1010Model.DC1010InterfaceLoginModel
+@{
+    ViewBag.Title = DC1010.lblTitlePage;
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+@section CssSection {
+    <link href="~/Content/themes/common/DC1010.css" rel="stylesheet" />
+}
+<div id="content">
+    @using (Html.BeginForm( "DC1010Index", "DC1010", FormMethod.Post ))
+    {
+        <div class="col-xs-12 logo_login"></div>
+        <div class="col-xs-12 bor_top">
+            <div class="col-xs-3 text-left f_bold">
+                <p>@DC1010.LabelMode</p>
+            </div>
+            <div class="col-xs-3 pan_10">
+                @Html.RadioButtonFor( m => m.LoginMode, "true", new { @class = "css-radio", id = "radShop" } )
+                @Html.Label( "radShop", DC1010.RadioMode1, new { @class = "f_bold css-label-radio col-xs-6" } )
+            </div>
+            <div class="col-xs-3 pan_10">
+                @Html.RadioButtonFor( m => Model.LoginMode, "false", new { @class = "css-radio", id = "radHQ" } )
+                @Html.Label( "radHQ", DC1010.RadioMode2, new { @class = "f_bold css-label-radio col-xs-6" } )
+            </div>
+        </div>
+        <div class="col-xs-12 bg_gray_new text-left f_bold">
+            <p>@DC1010.LabelShopID</p>
+        </div>
+        <div class="col-xs-12 margin_top_10">
+            <div>
+                @Html.TextBoxFor( m => m.TempoCd, new { autofocus = "", placeholder = "APS店舗番号", @maxlength = "6", @id = "txtShopId"} )
+            </div>
+            <div>
+                @Html.PasswordFor( m => m.Password, new { autofocus = "", placeholder = "パスワード", @maxlength = "20", @id = "txtShopPassword" } )
+            </div>
+        </div>
+        <div class="col-xs-12 bg_gray_new text-left f_bold">
+            <p>社員情報</p>
+        </div>
+        <div class="col-xs-12 margin_top_10">
+            <div>
+                @Html.TextBoxFor( m => m.ShainNo, new { autofocus = "", placeholder = "GHR社員番号", @maxlength = "10", @id = "txtUserId"} )
+            </div>
+            <div>
+                @Html.PasswordFor( m => m.Psw, new { autofocus = "", placeholder = "パスワード", @maxlength = "10", @id = "txtUserPassword" } )
+            </div>
+        </div>
+        <div class="col-xs-12 bor_bottom">
+            <input class="submit pa_b_10" type="submit" value="ログイン">
+        </div>
+
+		<!-- Get message error from server then passing to DC1010.js for display messagebox-->
+        <input type="hidden" value="@this.ViewBag.GetLoginFailed" id="mustCheckGetLoginFailed" />
+    }
+    <div class="col-xs-12 bold bor_top">
+        <p>@System.Configuration.ConfigurationManager.AppSettings["Version"]</p>
+    </div>
+</div>
+<script src="~/Scripts/common/DC1010.js"></script>
