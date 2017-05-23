@@ -1,0 +1,74 @@
+﻿@using StudyFW.MVC4.Entities.DCW.DCW003Model
+@using StudyFW.MVC4.UtilityServices;
+@model StudyFW.MVC4.Entities.DCW.DCW003Model.DCW003Model
+@{
+	ViewBag.Title = "Index";
+	Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+@section TitleSection {
+    <h2>検索画面</h2>
+}
+<link href="~/Content/themes/DCW/DCW003.css@(Html.GetVersionJs("~/Content/themes/DCW/DCW003.css"))" rel="stylesheet" />
+@*@Html.IncludeVersionedJs("/Scripts/DCW/DCW003.js")*@
+<script src="~/Scripts/DCW/DCW003.js@(Html.GetVersionJs("~/Scripts/DCW/DCW003.js"))"></script>
+<script src="~/Scripts/base/SortingPaging.js@(Html.GetVersionJs("~/Scripts/base/SortingPaging.js"))"></script>
+<script src="~/Scripts/base/suggestbox.js@(Html.GetVersionJs("~/Scripts/base/suggestbox.js"))"></script>
+
+@{
+    Model.Condition = (DCW003ConditionModel)ViewBag.SearchCondition;
+}
+<div class="container no_pa" style="height: 850px;">
+
+    <div class="col-xs-12">
+        <div class="content">
+            <div class="col-xs-12">
+                <div id="searchCondition">
+                    @Html.Partial("~/Areas/DCW/Views/DCW003/_DCW003Condition.cshtml", Model.Condition)
+                </div>
+                <!-- Button -->
+                <div class="col-xs-12 margin_top_1persent ">
+                    <input class="btn_common  with_120px h_60  fr ma_r_40 ma_l_20 f_14 pa_r_20" type="button" id="btnClear" value="クリア" />
+                    <input class="btn_common  w_204 h_60 bg_button ma_r_263 fr f_14 " type="button" id="btnSearch" value="検索" /> 
+                    
+                                                   
+                </div>
+
+
+                <!-- Search result -->
+                <div id="searchResult">
+                    @Html.Partial("~/Areas/DCW/Views/DCW003/_DCW003Result.cshtml", Model.Detail)
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+	var SEARCH = "@Url.Action( "DCW003Search" )";
+	var UPDATE = "@Url.Action( "DCW003Update" )";
+	var UPDATE_ALL = "@Url.Action( "DCW003UpdateAll" )";
+    var REGISTER = "@Url.Action( "DCW003Register" )";
+    //Start fix bug 66 HoaVV start
+    var CHECK_INPUT_TOROKUNO = "@Url.Action( "DCW003CheckInputTorokuno" )";
+    //End fix bug 66 HoaVV start
+    //fix bug 85 Hoa VV start
+    var EXPORT_CSV_CR = "@Url.Action( "DCW003OutputCsvCR" )";
+    //fix bug 85 Hoa VV end   
+@*Add by HoaVV P2 start*@
+    var SEND_TO_GHQ = "@Url.Action( "DCW003SendToGHQ" )";
+    var EXPORT_CSV_LINK_GHQ = "@Url.Action( "DCW003ExportCSVLinkGHQ" )";
+    var EXPORT_CSV_LINK_GHQ_NEW_TAB = "@Url.Action( "DCW003ExportCSVLinkGHQNewTab" )";
+@*Add by HoaVV P2 end*@	
+var SEND_AUTO_SEARCH = "@Url.Action( "DCW003SendAutoSearch" )";
+    var DCW003PrintUrl = '@Url.Action("PrintPage")';
+    var DCW003ExportCSVUrl = '@Url.Action("OutputCsv","DCW003")';
+    var ReportPrintUrl = '@Url.Action("Index","DCW003")';
+	SuggestBoxShopCd("ShopCd,ShopName");
+	SuggestBoxShopName("ShopName,ShopCd");
+	SuggestBoxShopCd("RakusatsuShopCd,RakusatsuShopName");
+	SuggestBoxShopName("RakusatsuShopName,RakusatsuShopCd");
+
+	var MessageContentI0010 = '@ViewBag.contentMsgI0010';
+    var MessageTypeI0010 = '@ViewBag.typeMsgI0010';
+
+    Initial();
+</script>

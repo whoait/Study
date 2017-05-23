@@ -1,0 +1,331 @@
+﻿@using StudyFW.MVC4.Entities.DCW.DCW003Model
+@model List<StudyFW.MVC4.Entities.DCW.DCW003Model.DCW003Uketori>
+@{
+    List<DCW003FuzokuhinMaster> lstDocFuzokuhinMaster = ViewBag.DocFuzokuhinMaster;
+
+    List<DCW003DropDownModel> lstDropYear = ViewBag.DropYear;
+}
+<div class="col-xs-12">
+    <div class="scrollbar scrollbar_option_tab2X">
+        <div class="Table tblUketori col-xs-12  text_c tbl_fixed ">  
+	            <div class="Row  ">
+		            <div class="Cell w_702  heigh_table1">
+		                    <div class="Table table_tab2 col-xs-12 ">
+				            <div class="Row  bo_right text_c bg_green h81 f_bold_11_5">
+					            <div class="Cell bo_right bo_left bo_bottom bo_right w3">
+						            <input id="IsNewCar_Tab2" type="checkbox" class="css-checkbox headerCheckbox_Tab2">
+						            <label for="IsNewCar_Tab2" class="css-label-checkbox label-style"></label>
+					            </div>
+                                <div class="Cell bo_right bo_bottom w15">
+                                    <div class="Table tbl_fixed col-xs-12">
+                                        <div class="Row h40">
+                                            <div class="Cell bo_bottom">
+                                                <p class="tbl_truncate">出品登録番号</p>
+                                            </div>
+                                        </div>
+                                        <div class="Row h40">
+                                            <div class="Cell">
+                                                <p class="tbl_truncate">車台番号</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                @*HoaVV Add bug CA 83 start*@
+                                 <div class="Cell bo_right bo_bottom w11">
+						            <p class="tbl_truncate">車名</p>
+					            </div>
+                                @*HoaVV Add bug CA 83 end*@
+					            <div class="Cell bo_right bo_bottom w6">
+						            <p class="tbl_truncate">区分</p>
+					            </div>
+					            <div class="Cell bo_right bo_bottom w12">
+						            <p class="tbl_truncate">登録NO</p>
+					            </div>
+					            <div class="Cell bo_right bo_bottom w13">
+						            <p class="tbl_truncate">車検満了日</p>
+					            </div>
+					            <div class="Cell bo_right bo_bottom w13">
+						            <p class="tbl_truncate">成約日</p>
+					            </div>
+					            <div class="Cell bo_right bo_bottom w13">
+						            <p class="tbl_truncate">書類期限</p>
+					            </div>
+            @*					<div class="Cell bo_right bo_bottom w18">
+						            <p class="tbl_truncate">車検登録日</p>
+					            </div>*@
+				            </div>
+                            </div>
+                    </div>
+		            <div class="Cell Table   tbl_fixed    heigh_table2 solecolor1">
+                            <div class="Row f_bold_12 text_c bg_green h81  f_bold_11_5">
+		                            <div class="Cell bo_right bo_bottom h81">
+                                        <p class="w_50 p_break">自社</p>
+                                    </div>
+                                @for (int i = 0; i < lstDocFuzokuhinMaster.Count; i++)
+                                {
+                                    if (lstDocFuzokuhinMaster[i].DocFuzokuhinCd == "160")
+                                    {
+                                    <div class="Cell bo_right bo_bottom h81">
+                                        <p class="w_50 p_break">@lstDocFuzokuhinMaster[i].DocFuzokuhinName</p>
+                                    </div>
+						            <div class="Cell bo_right bo_bottom h81">
+                                        <p class="w_80 p_break">納税年度</p>
+                                    </div>		
+                                    }
+                                    else if (lstDocFuzokuhinMaster[i].DocFuzokuhinCd == "250" || lstDocFuzokuhinMaster[i].DocFuzokuhinCd == "760")
+                                    {
+                                    <div class="Cell bo_right bo_bottom h81">
+                                        <p class=" w_144  p_break">@lstDocFuzokuhinMaster[i].DocFuzokuhinName</p>
+                                    </div>		
+                                    }
+                                    else
+                                    { 
+                                    <div class="Cell bo_right bo_bottom ">
+                                        <p class="w_50 p_break">@lstDocFuzokuhinMaster[i].DocFuzokuhinName</p>
+                                    </div>					
+                                    }
+                                }
+                            </div>
+                    </div>
+                </div>
+        </div>
+        <div class="Table tblUketori bg_solebar col-xs-12  text_c tbl_fixed ">
+           <div class="scrollbar scrollbar_option_tab2">
+                <div class="Row ">
+                        <div class="Cell w_702 col-xs-7 heigh_table1">
+		                        <div class="Table table_tab2 col-xs-12 ">
+                                @for (int i = 0; i < Model.Count; i++)
+                                    { 				
+					                    <div class="Row tblDetail_tab2 tbl_row_tab2 checkCL_Tab2 h85 f_11 checkCL checkCL_@i  cancel_@Model[i].UriageCancelFlg@Model[i].ShiireCancelFlg " >
+                                        <div class="Cell bo_right bo_left bo_bottom text-center w3">
+							                <input id="chk-tab2-@i" type="checkbox" class="css-checkbox checkboxItem_Tab2">
+							                <label for="chk-tab2-@i" class="css-label-checkbox label-style"></label>
+                                            @*<input  type="hidden" value="@Model[i].CheckRegister" class="CheckRegister" id="CheckRegister_@i"/>*@
+                                            @Html.HiddenFor(m => m[i].CheckRegister,new { @class = "form-control CheckRegister", @id="CheckRegister_"+i})
+                                            @*//HoaVV fix BUG F11GLVDO-227 start*@
+							                @Html.HiddenFor(m => m[i].TorokuNo, new { @class = "TorokuNoTorokuNo"})
+                                            @*//HoaVV fix BUG F11GLVDO-227 end*@
+                                            @Html.HiddenFor(m => m[i].DocControlNo)
+@*Add by HoaVV P2 start*@
+                                            @Html.HiddenFor(m => m[i].ShiireShuppinnTorokuNo)
+                                            @Html.HiddenFor(m => m[i].ShopCd)
+                                            @Html.HiddenFor(m => m[i].ChassisNo)
+                                            @Html.HiddenFor(m => m[i].KeiCarFlg)
+                                            
+                                            @Html.HiddenFor(m => m[i].MasshoFlg)
+                                            @Html.HiddenFor(m => m[i].ShakenLimitDate)
+                                            @Html.HiddenFor(m => m[i].JishameiFlg)
+                                            @Html.HiddenFor(m => m[i].DocNyukoDate)
+                                            @Html.HiddenFor(m => m[i].CcName)
+                                            @Html.HiddenFor(m => m[i].JoshaTeiinNum)
+                                            @Html.HiddenFor(m => m[i].JishameiKanryoNyukoDate)
+@*Add by HoaVV P2 end*@
+                                            <input  type="hidden" value="@i" class="idsolebar"/>
+						                </div>
+						                <div class="Cell bo_right  bo_bottom w15">
+                                            <div class="Table tbl_fixed col-xs-12">
+                                            <div class="Row h40">
+								                @if (!string.IsNullOrEmpty(Model[i].UriageShuppinnTorokuNo))
+                        {
+									                <div class="Cell bo_bottom @Model[i].DocControlNo">
+										                <p class="tbl_truncate">@Model[i].UriageShuppinnTorokuNo</p>
+									                </div>
+                        }
+                        else
+                        {
+									                <div class="Cell bo_bottom @Model[i].DocControlNo">
+										                <p class="tbl_truncate">@Model[i].ShiireShuppinnTorokuNo</p>
+									                </div>
+                        }
+                                            <input type="hidden" value="@Model.Count" id="CountRowTable"/>
+                                            </div>
+                                            <div class="Row h40">
+                                                <div class="Cell">
+                                                    <p class="p_break ">@Model[i].ChassisNo</p>
+                                                </div>
+                                            </div>
+                                        </div>
+							                @Html.HiddenFor(m => m[i].DocControlNo)
+						                </div>
+                                    @*HoaVV Add bug CA 83 start*@
+                                         <div class="Cell bo_right bo_bottom w11">
+						                      @if (Model[i].CarName == null)
+                                                 {
+                                                    <p class="p_break" ></p>
+                                                 }
+                                                 else if (Model[i].CarName.Length > 13)
+                                                 {
+							                    <p class=" pa_t_15 p_break_tab2" >@Model[i].CarName</p>
+                                                 }
+                                                 else
+                                                 {
+                    		                    <p class="p_break_tab2 pa_t_15" >@Model[i].CarName</p>
+                                                 }
+					                    </div>
+                                    @*HoaVV Add bug CA 83 end*@
+						                <div class="Cell bo_right bo_bottom w6">
+							                @if (@Model[i].KeiCarFlg == "0")
+                       {
+								                <p class="">普</p>
+                       }
+                       else if (@Model[i].KeiCarFlg == "1")
+                       {
+								                <p class="">軽</p>
+                       }
+							
+						                </div>
+						                <div class="Cell bo_right bo_bottom w12">
+							                <p class="">@Model[i].TorokuNo.Normalize(System.Text.NormalizationForm.FormKC)</p>
+						                </div>
+
+                                            <div class="Cell bo_right bo_bottom w13 @Model[i].DocControlNo@Model[i].DocControlNo div_centter_@i  set_MasshoFlg_Tab2_@Model[i].DocControlNo set_MasshoFlg_Init_@i" >
+							                    @Html.TextBoxFor(m => m[i].ShakenLimitDate, new { @class = "txtItem date form-control autoCompleteDate txt-datepicker-75 set_tab_Shaken"+Model[i].DocControlNo })
+                                              @*  <p style="color: red;" class="set_MasshoFlg_Tab2_@Model[i].DocControlNo set_MasshoFlg_Init_@i"></p> *@
+                                            </div>
+						                <div class="Cell bo_right bo_bottom w13">
+							                <p class=" autoCompleteDate-lbl">@Model[i].DnSeiyakuDate</p>
+						                </div>
+						                <div class="Cell bo_right bo_bottom w13">
+							                @Html.TextBoxFor(m => m[i].ShoruiLimitDate, new { @class = "txtItem date form-control autoCompleteDate txt-datepicker-75 set_tab_Shorui"+Model[i].DocControlNo})
+						                </div>
+						                    @*<div class="Cell bo_right bo_bottom w18">
+							                    @Html.TextBoxFor(m => m[i].MeihenShakenTorokuDate, new { @class = "form-control autoCompleteDate txt-datepicker-75" })
+						                    </div>*@
+					                </div>
+				                         
+                                    }
+                                </div>
+                        </div>
+                        <div class="Cell Table   tbl_fixed   heigh_table2 solecolor1">
+                            <div class="Table table_tab2  ">
+                                  @for (int i = 0; i < Model.Count; i++)
+                                { 
+                                      
+                                <div class="Row   tbl_row_tab2 checkCL_Tab2 h85 f_11 checkCL checkCL_@i  cancel_@Model[i].UriageCancelFlg@Model[i].ShiireCancelFlg ">
+            		                @{
+                                    if (Model[i].JishameiFlg == "1")
+                                    { 
+                                        <div class="Cell  w_50 bo_right bo_bottom">
+                                            <p class="w_50 ">
+                                                <input id="@Model[i].DocControlNo-@Model[i].JishameiFlg" type="checkbox" class="css-checkbox checkboxJishamei JishameiFlg_@Model[i].DocControlNo JishameiFlg_Init_@i" checked="checked">
+                                                <label for="@Model[i].DocControlNo-@Model[i].JishameiFlg" class="css-label-checkbox label-style"></label>
+                                                @Html.HiddenFor(m => m[i].JishameiFlg, new { @class = "JishameiFlg_Tab2_" + Model[i].DocControlNo })
+                                            </p>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <div class="Cell bo_right bo_bottom">
+                                             <p class="w_50 ">
+                                                <input id="@Model[i].DocControlNo-@Model[i].JishameiFlg" type="checkbox" class="css-checkbox checkboxJishamei JishameiFlg_@Model[i].DocControlNo JishameiFlg_Init_@i">
+                                                <label for="@Model[i].DocControlNo-@Model[i].JishameiFlg" class="css-label-checkbox label-style"></label>
+                                                @Html.HiddenFor(m => m[i].JishameiFlg, new { @class = "JishameiFlg_Tab2_"+Model[i].DocControlNo})
+                                              </p>
+                                        </div>
+                                    }
+                                        }
+                                    @*<div class="Cell bo_right bo_bottom">
+                                                <input id="@Model[i].DocControlNo-@Model[i].JishameiFlg" type="checkbox" class="css-checkbox checkboxJishamei JishameiFlg_@Model[i].DocControlNo JishameiFlg_Init_@i">
+                                                <label for="@Model[i].DocControlNo-@Model[i].JishameiFlg" class="css-label-checkbox label-style"></label>
+                                                @Html.HiddenFor(m => m[i].JishameiFlg, new { @class = "JishameiFlg_Tab2_" + Model[i].DocControlNo })
+                                            </div>*@
+                                        @for (int k = 0; k < Model[i].UketoriDetail.Count; k++)
+                                        {
+                                            if (Model[i].UketoriDetail[k].DocFuzoKuhinCd == "160")
+                                            {
+								                <div class="Cell w_50 bo_right bo_bottom">
+                                                 <p class="w_50 ">
+                                                        <input id="@Model[i].DocControlNo-@Model[i].UketoriDetail[k].DocFuzoKuhinCd" type="checkbox" class="css-checkbox checkboxFuzokuhin">
+
+                                                        <label for="@Model[i].DocControlNo-@Model[i].UketoriDetail[k].DocFuzoKuhinCd" class="css-label-checkbox label-style"></label>
+                                        
+                                                     @Html.HiddenFor(m => m[i].UketoriDetail[k].IsChecked)
+                                                        @Html.HiddenFor(m => m[i].UketoriDetail[k].Note)
+                                                        @Html.HiddenFor(m => m[i].UketoriDetail[k].DocControlNo)
+                                                        @Html.HiddenFor(m => m[i].UketoriDetail[k].DocFuzoKuhinCd)
+                                                     @Html.HiddenFor(m => m[i].UketoriDetail[k].DefaulCheckType)
+                                                     @Html.HiddenFor(m => m[i].MasshoFlg)
+                                                     @Html.HiddenFor(m => m[i].KeiCarFlg)
+                                                    @Html.HiddenFor(m => m[i].UketoriDetail[k].HisUketoriDocControlNo)
+                                                </p>
+                                            </div>
+                                            <div class="Cell w_58 bo_right bo_bottom dcw003pa_5 ">
+                                                <p class="w_100 ">
+                                                    <div class="Cell style_select  dcw003pa_10" >
+                                                    
+                                                        @Html.DropDownListFor(m => m[i].UketoriDetail[k].Note
+                                                                        , new SelectList(lstDropYear, "Value", "Value", Model[i].UketoriDetail[k].Note), new { @class = "droplist dropYear" })
+
+                                                        @Html.HiddenFor(m => m[i].UketoriDetail[k].IsChecked)
+                                                        @Html.HiddenFor(m => m[i].UketoriDetail[k].Note)
+                                                        @Html.HiddenFor(m => m[i].UketoriDetail[k].DocControlNo)
+                                                        @Html.HiddenFor(m => m[i].UketoriDetail[k].DocFuzoKuhinCd)
+                                                        @Html.HiddenFor(m => m[i].UketoriDetail[k].DefaulCheckType)
+                                                        @Html.HiddenFor(m => m[i].MasshoFlg)
+                                                     @Html.HiddenFor(m => m[i].KeiCarFlg)
+                                                        @Html.HiddenFor(m => m[i].UketoriDetail[k].HisUketoriDocControlNo)
+                                                   
+                                                    </div>
+                                                 </p>
+                                            </div>
+                                            }
+                                            else if (Model[i].UketoriDetail[k].DocFuzoKuhinCd == "250" || Model[i].UketoriDetail[k].DocFuzoKuhinCd == "760")
+                                            {
+                                            <div class="Cell bo_right bo_bottom ">
+                                                @Html.TextBoxFor(m => m[i].UketoriDetail[k].Note, new { @class = "txtNote w_144" })
+                                                @*<input type="text" class="txtNote"/>*@
+                                                @Html.HiddenFor(m => m[i].UketoriDetail[k].Note)
+                                                @Html.HiddenFor(m => m[i].UketoriDetail[k].IsChecked)
+                                                @Html.HiddenFor(m => m[i].UketoriDetail[k].DocControlNo)
+                                                @Html.HiddenFor(m => m[i].UketoriDetail[k].DocFuzoKuhinCd)
+                                                @Html.HiddenFor(m => m[i].UketoriDetail[k].DefaulCheckType)
+                                                @Html.HiddenFor(m => m[i].MasshoFlg)
+                                                     @Html.HiddenFor(m => m[i].KeiCarFlg)
+                                               @Html.HiddenFor(m => m[i].UketoriDetail[k].HisUketoriDocControlNo)
+                                            </div>
+                                            }
+                                            else
+                                            { 
+                                            <div class="Cell w_50 bo_right bo_bottom">
+                                                <p class="w_50 p_break">
+                                                <input id="@Model[i].DocControlNo-@Model[i].UketoriDetail[k].DocFuzoKuhinCd" type="checkbox" class="css-checkbox checkboxFuzokuhin">
+
+                                                <label for="@Model[i].DocControlNo-@Model[i].UketoriDetail[k].DocFuzoKuhinCd" class="css-label-checkbox   label-style"></label>
+                                                @Html.HiddenFor(m => m[i].UketoriDetail[k].IsChecked)
+                                                @Html.HiddenFor(m => m[i].UketoriDetail[k].Note)
+                                                @Html.HiddenFor(m => m[i].UketoriDetail[k].DocControlNo)
+                                                @Html.HiddenFor(m => m[i].UketoriDetail[k].DocFuzoKuhinCd)
+                                                    @Html.HiddenFor(m => m[i].UketoriDetail[k].DefaulCheckType)
+                                                    @Html.HiddenFor(m => m[i].MasshoFlg)
+                                                     @Html.HiddenFor(m => m[i].KeiCarFlg)
+                                                    @Html.HiddenFor(m => m[i].UketoriDetail[k].HisUketoriDocControlNo)
+                                                </p>
+                                            </div>	
+                                            }
+                                        }
+                                    </div>
+                                }
+                            </div>
+                        </div>       
+                </div>
+           </div>
+        </div>  
+    </div>
+</div>
+<div class="col-xs-12 mar_t_2persent mar_b_3persent ">
+	<div class="col-xs-12 text-center">
+@*Add by HoaVV P2 start*@
+        <button class="btn_common_2 fr w150px ma_l_40 h45 p_break bg_gray pa_t_5" id="btn_ExportCSV_LinkGHQ" type="button"   style="text-align:center; padding-top: 3px; ">@Html.Raw("GHQ<br>名変完了データ作成")</button>
+        <button class="btn_common_2 w150px fr ma_l_40 h45 p_break pa_t_5" id="btn_send_GHQ" type="button"  style="text-align:center; padding-top: 3px; ">@Html.Raw("GHQ<br>書類受取データ作成")</button>
+        <button class="btn_common_2 fr w150px h45 " id="btnRegister" type="button" >登録</button>
+@*Add by HoaVV P2 end*@	
+</div>
+</div>
+<script>
+@{
+    var settings = new Newtonsoft.Json.JsonSerializerSettings();
+    settings.StringEscapeHandling = Newtonsoft.Json.StringEscapeHandling.EscapeHtml; 
+	}
+    var lstUketori = JSON.parse('@Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model, settings))');
+
+</script>
